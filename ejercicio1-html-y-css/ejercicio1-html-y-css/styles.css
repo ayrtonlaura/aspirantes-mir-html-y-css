@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo{
+    color: #fff;
+    padding-bottom: 18px;
+    font-size: 35px;
+}
+.login{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #b417bd;
+    background: radial-gradient(#b417bd , #7148f0);
+    border-radius: 15px;
+    padding: 20px;
+}
+.content-input label{
+    display: block;
+    font-size: 23px;
+    color: #fff;
+}
+.selector{
+    color: black;
+
+    font-size: 16px;
+    width: 292px;
+    border-radius: 5px;
+    padding: 4px 5px;
+}
+.content-input input{
+    font-size: 23px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: transparent;
+}
+.content-input{
+    padding-bottom: 15px;
+}
+
+.content-input button{
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    width: 102px;
+    border: transparent;
+    padding: 8px;
+    
+}
+.content-input.boton{
+    text-align: end;
+    padding-right: 8px;
+
+}
+.content-input span{
+    color: #fff;
+}
